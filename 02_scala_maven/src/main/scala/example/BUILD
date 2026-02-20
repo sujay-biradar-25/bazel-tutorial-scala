@@ -5,6 +5,7 @@ scala_binary(
     main_class = "example.App",
     srcs = ["App.scala"],
     deps = [
+        "//src/main/scala/example/lib:parser_lib",
         "@maven//:com_lihaoyi_pprint_2_13",
         "@maven//:org_scalameta_scalameta_2_13",
     ],
